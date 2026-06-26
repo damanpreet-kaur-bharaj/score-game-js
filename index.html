@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Score Game : <span id="score">0</span></h1>
+    Enter Number: <input type="number" id="numberInput" />
+    Select Operation:
+    <select id="operationSelect">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+    </select>
+    <button onclick="generateFunc()">Submit</button>
+    <p id="multiply" style="visibility:hidden;"> Default Score is 1 for Multiply because any number multiply with 0 is always 0</p>
+    <p id="divide" style="visibility:hidden;"> Default Score is 1 for Division because any number divide with 0 is infinite</p>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
