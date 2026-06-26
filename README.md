@@ -35,7 +35,14 @@ An interactive browser-based score game built with vanilla JavaScript.
 
 Open `index.html` directly in any browser. No installation needed.
 
+## Live Demo
+
+[Play the game](https://damanpreet-kaur-bharaj.github.io/score-game-js)
+
 ## Author
 
 Damanpreet Kaur Bharaj
+
+
 [GitHub](https://github.com/damanpreet-kaur-bharaj) | [Portfolio](https://damanpreet-kaur-bharaj.github.io)
+
